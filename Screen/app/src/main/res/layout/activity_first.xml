@@ -12,5 +12,14 @@
         android:textColor="@android:color/background_dark"
         android:onClick="goNext"
         android:text="@string/button_next" />
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startService"
+        android:text="@string/startService"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopService"
+        android:text="@string/stopService"/>
 </LinearLayout>

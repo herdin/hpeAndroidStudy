@@ -24,4 +24,18 @@ public class FirstActivity extends AppCompatActivity {
 
     }//END OF FUNCTION
 
+    public void startService(View v) {
+        Toast.makeText(this, "startService", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent();
+        intent.setClass(this, MyService.class);
+        startService(intent);
+    }//END OF FUNCTION
+
+    public void stopService(View v) {
+        Toast.makeText(this, "stopService", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent();
+        intent.setClass(this, MyService.class);
+        stopService(intent);
+    }//END OF FUNCTION
+
 }//END OF CLASS
