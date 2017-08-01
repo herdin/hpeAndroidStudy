@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:textColor="@android:color/background_dark"
         android:onClick="goNext"
-        android:text="@string/button_next" />
+        android:id="@+id/goNextBtn"
+        android:text="@string/goNext" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,10 +22,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="stopService"
-        android:text="@string/stopService"/>
+        android:text="@string/stopService" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="startBroadcast"
         android:text="@string/startBroadcast"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

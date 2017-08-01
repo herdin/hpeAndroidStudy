@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\RelativeLayoutProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 59,
+                    "endOffset": 110
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\RelativeLayoutProject\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 123,
+                        "endColumn": 59,
+                        "endOffset": 178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 115,
+                    "endColumn": 67,
+                    "endOffset": 178
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\RelativeLayoutProject\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 67,
+                        "endOffset": 118
+                    }
+                }
+            }
+        ]
+    }
+]

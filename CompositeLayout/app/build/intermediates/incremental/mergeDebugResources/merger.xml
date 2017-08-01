@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res"/><source path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\build\generated\res\rs\debug"/><source path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res"><file name="background_" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable\background_.png" qualifiers="" type="drawable"/><file name="bg" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable\bg.png" qualifiers="" type="drawable"/><file name="jaen_new_main1" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable\jaen_new_main1.png" qualifiers="" type="drawable"/><file name="main_banner_bg_" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable\main_banner_bg_.png" qualifiers="" type="drawable"/><file name="main_menu_bg_" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable\main_menu_bg_.png" qualifiers="" type="drawable"/><file name="menu_con" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable\menu_con.png" qualifiers="" type="drawable"/><file name="menu_edu" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable\menu_edu.png" qualifiers="" type="drawable"/><file name="menu_ref" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable\menu_ref.png" qualifiers="" type="drawable"/><file name="top_bg" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable\top_bg.png" qualifiers="" type="drawable"/><file name="ic_launcher" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="activity_main" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="main_con" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\layout\main_con.xml" qualifiers="" type="layout"/><file name="main_edu" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\layout\main_edu.xml" qualifiers="" type="layout"/><file name="main_ref" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\layout\main_ref.xml" qualifiers="" type="layout"/><file name="top" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\layout\top.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\menu\activity_main.xml" qualifiers="" type="menu"/><file name="context_menu" path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\menu\context_menu.xml" qualifiers="" type="menu"/><file path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\values\colors.xml" qualifiers=""><color name="list_row_bg">#e8f2ff</color><drawable name="list_normal">#96FFFFFF</drawable><drawable name="list_pressed">#CA000000</drawable><color name="default_text_color">#333</color><color name="list_row_bg_alt">#f8f8f8</color><drawable name="list_active">#ffc500</drawable></file><file path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="menu_settings">Settings</string><string name="app_name">Welcome Jaen World!</string><string name="main_name">앱사이트/홈화면</string></file><file path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\values\styles.xml" qualifiers=""><style name="noticeDialogText.subject">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="category" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:listViewStyle">@style/categoryListView</item>
+        <item name="android:textAppearance">@style/defaultTextAppearance</item>
+    </style><style name="categoryListView" parent="@android:style/Widget.ListView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:divider">#c8c8c8</item>
+        <item name="android:dividerHeight">1px</item>
+    </style><style name="noticeDialogText.info">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#e4e4e4</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="noticeMainListView" parent="@android:style/Widget.ListView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:divider">#c8c8c8</item>
+        <item name="android:dividerHeight">1px</item>
+        
+    </style><style name="defaultDialogText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style><style name="subjectText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12px</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="defaultScreen" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+        <item name="android:textAppearance">@style/defaultTextAppearance</item>
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="noticeDialogText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style><style name="defaultTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="noticeListMain" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:listViewStyle">@style/noticeMainListView</item>
+        <item name="android:textAppearance">@style/defaultTextAppearance</item>
+    </style><style name="defaultEditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@android:drawable/edit_text</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center_vertical</item>
+    </style><style name="regDateText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10px</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textStyle">bold</item>
+    </style></file><file path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file></source><source path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\build\generated\res\rs\debug"/><source path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Dev\AndroidBasic_Studio\lab\and4_UI_Layout_Event\CompositeLayout\app\src\debug\res"/></dataSet><mergedItems/></merger>

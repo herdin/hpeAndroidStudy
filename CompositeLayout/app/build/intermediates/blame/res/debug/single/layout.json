@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_edu.xml",
+        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\layout\\main_edu.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_con.xml",
+        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\layout\\main_con.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top.xml",
+        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\layout\\top.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_ref.xml",
+        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\layout\\main_ref.xml"
+    }
+]

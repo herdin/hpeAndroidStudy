@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="debugId">####디버그####</string>
+
+    <string name="app_name">스크린</string>
+    <string name="dataKey">DATAKEY01</string>
+    <string name="smsKey">pdus</string>
+
+    <string name="goNext">GO NEXT</string>
+    <string name="startService">START SERVICE</string>
+    <string name="stopService">STOP SERVICE</string>
+    <string name="startBroadcast">START BROADCAST</string>
+</resources>

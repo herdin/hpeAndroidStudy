@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="30px"
+        layout="@layout/top" />
+
+    <FrameLayout
+        android:id="@+id/mainLayoutFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/mainLayoutBanner"
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:layout_below="@+id/top"
+            android:background="@drawable/main_banner_bg_" >
+
+            <ImageView
+                android:layout_width="317px"
+                android:layout_height="77px"
+                android:layout_below="@+id/top"
+                android:background="@drawable/jaen_new_main1" >
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mainLayoutMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="30px"
+            android:layout_below="@+id/mainLayoutBanner"
+            android:layout_gravity="bottom"
+            android:background="@drawable/main_menu_bg_"
+            android:gravity="right" >
+
+            <ImageButton
+                android:id="@+id/menuEduBut"
+                android:layout_width="95px"
+                android:layout_height="30px"
+                android:background="@drawable/menu_edu" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/menuRefBut"
+                android:layout_width="95px"
+                android:layout_height="30px"
+                android:background="@drawable/menu_ref" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/menuConBut"
+                android:layout_width="95px"
+                android:layout_height="30px"
+                android:background="@drawable/menu_con" >
+            </ImageButton>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/mainLayoutContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/mainLayoutFrame" >
+
+        <include
+            android:id="@+id/main_tab_edu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/main_edu" />
+
+        <include
+            android:id="@+id/main_tab_ref"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/main_ref" />
+
+        <include
+            android:id="@+id/main_tab_con"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/main_con" />
+    </FrameLayout>
+
+</LinearLayout>

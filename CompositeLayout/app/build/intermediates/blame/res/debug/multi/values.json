@@ -1,0 +1,491 @@
+[
+    {
+        "outputFile": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 49,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 45,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 45,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 151,
+                    "endColumn": 49,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 49,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 51,
+                    "endOffset": 248
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 257,
+                        "endColumn": 51,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 253,
+                    "endColumn": 53,
+                    "endOffset": 302
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 53,
+                        "endOffset": 252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 307,
+                    "endColumn": 54,
+                    "endOffset": 357
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 309,
+                        "endColumn": 54,
+                        "endOffset": 359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 362,
+                    "endColumn": 56,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 56,
+                        "endOffset": 108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 419,
+                    "endColumn": 52,
+                    "endOffset": 467
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 211,
+                        "endColumn": 52,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 472,
+                    "endColumn": 46,
+                    "endOffset": 514
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 113,
+                        "endColumn": 46,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 519,
+                    "endColumn": 50,
+                    "endOffset": 565
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 50,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 570,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 725
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 3771,
+                        "endLine": 95,
+                        "endColumn": 12,
+                        "endOffset": 3926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 730,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1070
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endLine": 29,
+                        "endColumn": 12,
+                        "endOffset": 1342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1075,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1339
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1348,
+                        "endLine": 35,
+                        "endColumn": 12,
+                        "endOffset": 1612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1344,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1495
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 845,
+                        "endLine": 22,
+                        "endColumn": 12,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1500,
+                    "endLine": 38,
+                    "endColumn": 12,
+                    "endOffset": 2015
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 324,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2020,
+                    "endLine": 43,
+                    "endColumn": 12,
+                    "endOffset": 2282
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2287,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 2527
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2471,
+                        "endLine": 62,
+                        "endColumn": 12,
+                        "endOffset": 2711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2532,
+                    "endLine": 52,
+                    "endColumn": 12,
+                    "endOffset": 2682
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 3192,
+                        "endLine": 79,
+                        "endColumn": 12,
+                        "endOffset": 3342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 2687,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 2891
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 3561,
+                        "endLine": 91,
+                        "endColumn": 12,
+                        "endOffset": 3765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 2896,
+                    "endLine": 62,
+                    "endColumn": 12,
+                    "endOffset": 3103
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 3348,
+                        "endLine": 85,
+                        "endColumn": 12,
+                        "endOffset": 3555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3108,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 3456
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1618,
+                        "endLine": 42,
+                        "endColumn": 12,
+                        "endOffset": 1966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3461,
+                    "endLine": 81,
+                    "endColumn": 12,
+                    "endOffset": 3954
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1972,
+                        "endLine": 56,
+                        "endColumn": 12,
+                        "endOffset": 2465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 3959,
+                    "endLine": 86,
+                    "endColumn": 12,
+                    "endOffset": 4192
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 2953,
+                        "endLine": 74,
+                        "endColumn": 12,
+                        "endOffset": 3186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 4197,
+                    "endLine": 91,
+                    "endColumn": 12,
+                    "endOffset": 4427
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_UI_Layout_Event\\CompositeLayout\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2717,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 2947
+                    }
+                }
+            }
+        ]
+    }
+]

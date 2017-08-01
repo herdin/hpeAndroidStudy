@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class FirstActivity extends AppCompatActivity {
@@ -40,6 +41,8 @@ public class FirstActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::onStop()");
+        Button goNextBtn = (Button) findViewById(R.id.goNextBtn);
+        goNextBtn.setText("CHANGED BUTTON NAME");
     }//END OF FUNCTION
 
     @Override
@@ -60,7 +63,6 @@ public class FirstActivity extends AppCompatActivity {
         //intent 에 담을 수 있는 정보는 1024 가 한계다.
         intent.putExtra(getString(R.string.dataKey), "this is data"); //intent 에 string 데이터를 dataKey 를 key 로 넣어준다.
         startActivity(intent); //intent 를 전달하라고 요청한다. activity 가 떠있지않으면 띄우고 전달, 안떠있으면 띄운다.
-
     }//END OF FUNCTION
 
     public void startService(View v) {
