@@ -1,9 +1,11 @@
 package hello.android.hp.edu.screen;
 
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -14,6 +16,8 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
     }//END OF FUNCTION
+
+    
 
     public void goNext(View view) {
         Toast.makeText(this, "this is Toast", Toast.LENGTH_SHORT).show(); //토스터 한번 띄워주고
@@ -36,6 +40,18 @@ public class FirstActivity extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setClass(this, MyService.class);
         stopService(intent);
+    }//END OF FUNCTION
+
+    public void startBroadcast(View v) {
+        Log.d("####DEBUG", "startBroadcast");
+        Intent intent = new Intent();
+        //방법1 : 내 프로젝트안의 클래스를 호출할때
+        //intent.setClass(this, MyReceiver.class);
+        //방법2 : 패키지와 클래스명을 알고있을때, 다른 프로젝트의 클래스도 호출가능
+        ComponentName cn = new ComponentName("hello.android.hp.edu.screen", "hello.android.hp.edu.screen.MyReceiver");
+        intent.setComponent(cn);
+        sendBroadcast(intent);
+        //메세지처리를 할 수있도록 변경했기 떄문에 오류난다.
     }//END OF FUNCTION
 
 }//END OF CLASS

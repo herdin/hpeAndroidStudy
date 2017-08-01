@@ -2,7 +2,10 @@
     <string name="app_name">Screen</string>
     <string name="button_next">NEXT</string>
     <string name="dataKey">DATAKEY01</string>
+    <string name="smsKey">pdus</string>
 
     <string name="startService">START SERVICE</string>
     <string name="stopService">STOP SERVICE</string>
+
+    <string name="startBroadcast">START BROADCAST</string>
 </resources>
