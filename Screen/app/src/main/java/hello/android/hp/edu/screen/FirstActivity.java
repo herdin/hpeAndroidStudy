@@ -14,10 +14,45 @@ public class FirstActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::onCreate() " + ((savedInstanceState == null)? "":"RESTART"));
         setContentView(R.layout.activity_first);
     }//END OF FUNCTION
 
-    
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::onStart()");
+    }//END OF FUNCTION
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::onResume()");
+    }//END OF FUNCTION
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::onPause()");
+    }//END OF FUNCTION
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::onStop()");
+    }//END OF FUNCTION
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::onRestart()");
+    }//END OF FUNCTION
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::onDestroy()");
+    }//END OF FUNCTION
 
     public void goNext(View view) {
         Toast.makeText(this, "this is Toast", Toast.LENGTH_SHORT).show(); //토스터 한번 띄워주고
@@ -29,21 +64,22 @@ public class FirstActivity extends AppCompatActivity {
     }//END OF FUNCTION
 
     public void startService(View v) {
-        Toast.makeText(this, "startService", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "startService", Toast.LENGTH_SHORT).show();
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::startService()");
         Intent intent = new Intent();
         intent.setClass(this, MyService.class);
         startService(intent);
     }//END OF FUNCTION
 
     public void stopService(View v) {
-        Toast.makeText(this, "stopService", Toast.LENGTH_SHORT).show();
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::stopService()");
         Intent intent = new Intent();
         intent.setClass(this, MyService.class);
         stopService(intent);
     }//END OF FUNCTION
 
     public void startBroadcast(View v) {
-        Log.d("####DEBUG", "startBroadcast");
+        Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::startBroadcast()");
         Intent intent = new Intent();
         //방법1 : 내 프로젝트안의 클래스를 호출할때
         //intent.setClass(this, MyReceiver.class);

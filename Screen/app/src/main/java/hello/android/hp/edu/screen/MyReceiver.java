@@ -12,16 +12,18 @@ public class MyReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.d("####DEBUG", "MyReceiver::onReceive()");
+        Log.d(context.getString(R.string.debugId), this.getClass().getSimpleName() + "::onReceive()");
 
         //아래는 메세지처리
         Bundle bundle = intent.getExtras();
-        Object[] msgs = (Object[]) bundle.get(context.getString(R.string.smsKey));
-        SmsMessage[] smsMessages = new SmsMessage[msgs.length];
-        int n=0;
-        for(Object msg : msgs)
-            smsMessages[n++] = SmsMessage.createFromPdu((byte[])msg);
-        Toast.makeText(context, "SMS MESSAGE : " + smsMessages[0].getMessageBody(), Toast.LENGTH_SHORT).show();
+        if(bundle != null) {
+            Object[] msgs = (Object[]) bundle.get(context.getString(R.string.smsKey));
+            SmsMessage[] smsMessages = new SmsMessage[msgs.length];
+            int n=0;
+            for(Object msg : msgs)
+                smsMessages[n++] = SmsMessage.createFromPdu((byte[])msg);
+            Toast.makeText(context, "SMS MESSAGE : " + smsMessages[0].getMessageBody(), Toast.LENGTH_SHORT).show();
+        }
     }//END OF FUNCTION
 
 }//END OF CLASS

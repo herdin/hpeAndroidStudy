@@ -1,4 +1,5 @@
 <resources>
+    <string name="debugId">####DEBUG####</string>
     <string name="app_name">Screen</string>
     <string name="button_next">NEXT</string>
     <string name="dataKey">DATAKEY01</string>
