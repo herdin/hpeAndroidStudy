@@ -5,28 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="hp.edu.uitest.MainActivity"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:id="@+id/layout1"
+    >
 
     <TextView
-        android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/tv"
         android:text="textView"
         android:lines="10"
         android:textColor="@android:color/holo_red_light"
         android:gravity="center"
         />
     <Button
-        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/button"
         android:text="button"
-
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="button2"
+        android:onClick="click4"
         />
     <EditText
-        android:id="@+id/et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/et"
         />
 
 </LinearLayout>
