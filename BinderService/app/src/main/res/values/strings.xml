@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BinderService</string>
+    <string name="debugTag">####DEBUG####</string>
+    <string name="play">PLAY</string>
+    <string name="stop">STOP</string>
+    <string name="pause">PAUSE</string>
+</resources>
+
