@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
             Log.d(getString(R.string.debugTag), "MainActivity::ServiceConnection::onServiceConnected()");
             MainActivity.this.iService = (IService)iBinder;
             MainActivity.this.iService.registCallback(MainActivity.this.iCallback);
+
+            //aidl serivce 를 사용할 경우, 아래변수를 멤버변수를 넣고 사용하면된다.
+            //AidlService aidlService = AidlService.Stub.asInterface(iBinder);
         }//END OF FUNCTION
 
         @Override
@@ -85,5 +88,6 @@ public class MainActivity extends AppCompatActivity {
     public void mainActivityFunc() {
         Log.d(getString(R.string.debugTag), "MainActivity::mainActivityFunc()");
     }//END OF FUNCTION
+
 
 }//END OF CLASS

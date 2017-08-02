@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -22,7 +23,7 @@ public class MyCanvas extends View {
     private float stopY;
 
 
-    public MyCanvas(Context context, @Nullable AttributeSet attrs) { //layout xml 에서 설정된 값이 attrs 로 넘어오는듯
+    public MyCanvas(final Context context, @Nullable AttributeSet attrs) { //layout xml 에서 설정된 값이 attrs 로 넘어오는듯
         super(context, attrs);
         this.myText = attrs.getAttributeValue(null, "myText");
         this.setOnTouchListener(new OnTouchListener() {
@@ -32,22 +33,24 @@ public class MyCanvas extends View {
                     case MotionEvent.ACTION_DOWN :
                         startX = stopX = motionEvent.getX();
                         startY = stopY = motionEvent.getY();
-                        invalidate();
-
+                        Log.d(context.getString(R.string.debugTag), "ACTION_DOWN(" + startX + ", " + startY + ")");
+                        invalidate(); //onDraw 를 호출
                         return true;
                     case MotionEvent.ACTION_MOVE :
                         startX = stopX;
                         stopX = motionEvent.getX();
                         startY = stopY;
                         stopY = motionEvent.getY();
-                        invalidate();
+                        Log.d(context.getString(R.string.debugTag), "ACTION_MOVE(" + startX + ", " + startY + ")");
+                        invalidate(); //onDraw 를 호출
                         return true;
                     case MotionEvent.ACTION_UP :
                         startX = stopX;
                         stopX = motionEvent.getX();
                         startY = stopY;
                         stopY = motionEvent.getY();
-                        invalidate();
+                        Log.d(context.getString(R.string.debugTag), "ACTION_UP(" + startX + ", " + startY + ")");
+                        invalidate(); //onDraw 를 호출
                         return true;
                     default : break;
                 }

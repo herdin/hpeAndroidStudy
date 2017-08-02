@@ -6,6 +6,7 @@ import android.os.Binder;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteCallbackList;
+import android.os.RemoteException;
 import android.support.annotation.IntDef;
 import android.util.Log;
 
@@ -124,4 +125,21 @@ public class MyService extends Service { //스타트서비스/바인드서비스
         Log.d(getString(R.string.debugTag), "MyService::puase()");
     }//END OF FUNCTION
 
+
+    AidlService.Stub stub = new AidlService.Stub() {
+        @Override
+        public String onPlay(int flag) throws RemoteException {
+            return null;
+        }
+
+        @Override
+        public String onStop(int flag) throws RemoteException {
+            return null;
+        }
+
+        @Override
+        public String onPause(int flag) throws RemoteException {
+            return null;
+        }
+    };
 }//END OF CLASS
