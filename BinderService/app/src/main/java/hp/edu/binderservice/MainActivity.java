@@ -14,14 +14,12 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button playButton;
-    private Button stopButton;
-    private Button puaseButton;
-    private IService iService;
-    private ICallback iCallback = new ICallback() {
+    private IService iService; //액티비티에서 호출할 서비스인터페이스
+    private ICallback iCallback = new ICallback() { //서비스에서 호출할 액티비티 콜백인터페이스
         @Override
         public void onCallBack() {
             Log.d(getString(R.string.debugTag), "MainActivity::ICallback::onCallBack()");
+            MainActivity.this.mainActivityFunc();
         }
 
         @Override
