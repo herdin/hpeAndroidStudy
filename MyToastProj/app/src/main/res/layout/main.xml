@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/hello" />
+	<Button
+		android:layout_width="match_parent"
+		android:text="토스트를 불러라"
+		android:layout_height="wrap_content"
+		android:id="@+id/toastBut"></Button>
+	  
+	<Button
+		android:layout_width="match_parent"
+		android:text="모양 변경된 Toast"
+		android:layout_height="wrap_content"
+		android:id="@+id/changeToastB"></Button>
+	
+</LinearLayout>

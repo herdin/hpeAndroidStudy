@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject-CustomRow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject-CustomRow\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 53,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 61,
+                    "endOffset": 166
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject-CustomRow\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 61,
+                        "endOffset": 112
+                    }
+                }
+            }
+        ]
+    }
+]

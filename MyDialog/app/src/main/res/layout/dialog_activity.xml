@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Demonstrates an activity with a dialog theme.
+     See corresponding Java code com.android.sdk.app.DialogActivity.java. -->
+
+<!-- This screen consists of a single text field that displays some text. -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/text"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="@string/dialog_activity_text"/>

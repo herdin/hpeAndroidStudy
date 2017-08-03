@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog_text_entry.xml",
+        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\src\\main\\res\\layout\\alert_dialog_text_entry.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_activity.xml",
+        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\src\\main\\res\\layout\\dialog_activity.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\src\\main\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\src\\main\\res\\layout\\main.xml"
+    }
+]

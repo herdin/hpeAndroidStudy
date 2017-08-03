@@ -1,0 +1,66 @@
+[
+    {
+        "outputFile": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\SpinnerProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 313
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\SpinnerProject\\app\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 318,
+                    "endColumn": 52,
+                    "endOffset": 366
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\SpinnerProject\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 52,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 371,
+                    "endColumn": 57,
+                    "endOffset": 424
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\SpinnerProject\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 52,
+                        "endColumn": 54,
+                        "endOffset": 105
+                    }
+                }
+            }
+        ]
+    }
+]

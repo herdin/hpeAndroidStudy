@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\EfficientAdapter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\EfficientAdapter\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 58,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    }
+]

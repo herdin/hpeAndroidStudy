@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res"/><source path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\build\generated\res\rs\debug"/><source path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res"><file name="alert_dialog_icon" path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res\drawable\alert_dialog_icon.png" qualifiers="" type="drawable"/><file name="ic_launcher" path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res\drawable\ic_launcher.png" qualifiers="" type="drawable"/><file name="ic_popup_reminder" path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res\drawable\ic_popup_reminder.png" qualifiers="" type="drawable"/><file name="alert_dialog" path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res\layout\alert_dialog.xml" qualifiers="" type="layout"/><file name="alert_dialog_text_entry" path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res\layout\alert_dialog_text_entry.xml" qualifiers="" type="layout"/><file name="dialog_activity" path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res\layout\dialog_activity.xml" qualifiers="" type="layout"/><file name="main" path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res\values\arrays.xml" qualifiers=""><string-array name="search_menuModes">
+        <item>Search Key</item>
+        <item>Menu Item</item>
+        <item>Type-To-Search</item>
+        <item>Disabled</item>
+    </string-array><string-array name="entries_list_preference">
+        <item>Alpha Option 01</item>
+        <item>Beta Option 02</item>
+        <item>Charlie Option 03</item>  
+    </string-array><string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+    </string-array><string-array name="entryvalues_list_preference">
+        <item>alpha</item>
+        <item>beta</item>
+        <item>charlie</item>  
+    </string-array><string-array name="select_dialog_items">
+        <item>Command one</item>
+        <item>Command two</item>
+        <item>Command three</item>
+        <item>Command four</item>
+    </string-array><string-array name="colors">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>violet</item>
+    </string-array><string-array name="select_dialog_items3">
+        <item>Every Monday</item>
+        <item>Every Tuesday</item>
+        <item>Every Wednesday</item>
+        <item>Every Thursday</item>
+        <item>Every Friday</item>
+        <item>Every Saturday</item>
+        <item>Every Sunday</item>
+    </string-array><string-array name="select_dialog_items2">
+        <item>Map</item>
+        <item>Satellite</item>
+        <item>Traffic</item>
+        <item>Street view</item>
+    </string-array></file><file path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\main\res\values\strings.xml" qualifiers=""><string name="alert_dialog_cancel">Cancel</string><string name="alert_dialog_password">Password:</string><string name="alert_dialog_single_choice">Single choice list</string><string name="alert_dialog_progress_button">Progress dialog</string><string name="alert_dialog_something">Something</string><string name="select_dialog">Header title</string><string name="select_dialog_show">List dialog</string><string name="alert_dialog_progress_text2">145/305 KB</string><string name="alert_dialog_two_buttons2_msg">
+        Plloaso mako nuto siwuf cakso dodtos anr koop a
+        cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel
+        ba mada su otrenzr.\n\nSwipontgwook proudgs hus yag su ba dagarmidad.
+        Plasa maku noga wipont trenzsa schengos ent kaap zux comy.\n\nWipont trenz
+        kipg naar mixent phona. Cak pwico siructiun
+        ruous nust apoply tyu cak Uhex sisulutiun munityuw uw dseg
+    </string><string name="alert_dialog_progress_text1">34</string><string name="hello">Hello World, MyActivity!</string><string name="alert_dialog_ok">OK</string><string name="app_name">MyDialogApp</string><string name="alert_dialog_text_entry">Text Entry dialog</string><string name="alert_dialog_select_button">List dialog</string><string name="alert_dialog_multi_choice">Repeat alarm</string><string name="custom_dialog_activity_text">Example of how you can use a
+            custom Theme.Dialog theme to make an activity that looks like a
+            customized dialog, here with an ugly frame.</string><string name="activity_alert_dialog">App/Dialog</string><string name="activity_dialog">App/Activity/Dialog</string><string name="alert_dialog_hide">Hide</string><string name="alert_dialog_two_buttons2">OK Cancel dialog with a long message</string><string name="dialog_activity_text">Example of how you can use the
+            Theme.Dialog theme to make an activity that looks like a
+            dialog.</string><string name="activity_custom_dialog">App/Activity/Custom Dialog</string><string name="alert_dialog_two_buttons_msg">Header title</string><string name="alert_dialog_two_buttons">OK Cancel dialog with a message</string><string name="alert_dialog_two_buttons_title">
+        Lorem ipsum dolor sit aie consectetur adipiscing\nPlloaso mako nuto
+        siwuf cakso dodtos anr koop.
+    </string><string name="alert_dialog_username">Name:</string></file></source><source path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\build\generated\res\rs\debug"/><source path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Dev\AndroidBasic_Studio\lab\and4_Adapter&amp;Dlg\MyDialog\app\src\debug\res"/></dataSet><mergedItems/></merger>
