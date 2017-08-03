@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public TextView tvtcnt;
     public int cnt = 0;
     public int cnt2 = 0;
+    public boolean threadFlag = true;
 
     Handler handler = new Handler() {
         @Override
@@ -102,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 Log.d(getString(R.string.debugTag), "USER THREAD " + Thread.currentThread().getId() + " START");
-                while(true) {
+                while(threadFlag) {
                     handler.post(new Runnable() {
                         @Override
                         public void run() {
@@ -119,5 +120,11 @@ public class MainActivity extends AppCompatActivity {
                 //Log.d(getString(R.string.debugTag), "USER THREAD " + Thread.currentThread().getId() + " END");
             }
         }, "AUTO CNT2 INC THREAD").start();
+    }//END OF FUNCTION
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        this.threadFlag = false;
     }//END OF FUNCTION
 }//END OF CLASS
