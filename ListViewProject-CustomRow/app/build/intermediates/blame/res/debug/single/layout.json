@@ -1,10 +1,14 @@
 [
     {
-        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject-CustomRow\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_image.xml",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\layout\\row_image.xml"
     },
     {
-        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
-        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject-CustomRow\\app\\src\\main\\res\\layout\\row.xml"
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\layout\\main.xml"
     }
 ]

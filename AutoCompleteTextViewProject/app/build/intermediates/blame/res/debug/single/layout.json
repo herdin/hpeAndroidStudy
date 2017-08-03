@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Android\\workspace\\AutoCompleteTextViewProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item.xml",
+        "source": "C:\\Android\\workspace\\AutoCompleteTextViewProject\\app\\src\\main\\res\\layout\\layout_item.xml"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\AutoCompleteTextViewProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\AutoCompleteTextViewProject\\app\\src\\main\\res\\layout\\main.xml"
     },

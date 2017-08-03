@@ -3,11 +3,13 @@ package edu.jaen.android.ui.autoctview;
 
 import edu.jaen.android.ui.autoctview.R;
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -68,8 +70,14 @@ public class HelloAutoCompleteTextView extends Activity {
         textView.setAdapter(adapter);
 
 		ListView listView = (ListView)findViewById(R.id.listView);
-		ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, COUNTRIES);
+		TextView javaTextView = new TextView(this);
+		javaTextView.setTextColor(Color.BLUE);
+
+		ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, R.layout.layout_item, COUNTRIES);
+		//ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, javaTextView.getId(), COUNTRIES);
+
 		listView.setAdapter(adapter2);
+
 
     }//END OF FUNCTION
 }//END OF CLASS

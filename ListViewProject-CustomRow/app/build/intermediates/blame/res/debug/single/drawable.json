@@ -1,6 +1,38 @@
 [
     {
-        "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
-        "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\koala.jpg",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\koala.jpg"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chrysanthemum.jpg",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\chrysanthemum.jpg"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\desert.jpg",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\desert.jpg"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\penguins.jpg",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\penguins.jpg"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tulips.jpg",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\tulips.jpg"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hydrangeas.jpg",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\hydrangeas.jpg"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jellyfish.jpg",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\jellyfish.jpg"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lighthouse.jpg",
+        "source": "C:\\Android\\workspace\\ListViewProject-CustomRow\\app\\src\\main\\res\\drawable\\lighthouse.jpg"
     }
 ]

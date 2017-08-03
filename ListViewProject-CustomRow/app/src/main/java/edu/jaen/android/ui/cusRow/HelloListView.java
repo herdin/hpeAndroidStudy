@@ -1,107 +1,85 @@
 package edu.jaen.android.ui.cusRow;
 
-import edu.jaen.android.ui.cusRow.R;
 import android.app.Activity;
 import android.content.Context;
+import android.media.Image;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static edu.jaen.android.ui.cusRow.Constants.COUNTRIES;
+import static edu.jaen.android.ui.cusRow.Constants.imageData;
+
 /**
- * ListView ��ȸ������ xml���Ͽ� �����Ͽ� �ݺ��Ѵ�.
+ * ListView 조회내용을 xml파일에 정의하여 반복한다.
  * 
  */
 public class HelloListView extends Activity {
 	/** Called when the activity is first created. */
 
-	static final String[] COUNTRIES = new String[] { "Afghanistan", "Albania",
-			"Algeria", "American Samoa", "Andorra", "Angola", "Anguilla",
-			"Antarctica", "Antigua and Barbuda", "Argentina", "Armenia",
-			"Aruba", "Australia", "Austria", "Azerbaijan", "Bahrain",
-			"Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin",
-			"Bermuda", "Bhutan", "Bolivia", "Bosnia and Herzegovina",
-			"Botswana", "Bouvet Island", "Brazil",
-			"British Indian Ocean Territory", "British Virgin Islands",
-			"Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cote d'Ivoire",
-			"Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands",
-			"Central African Republic", "Chad", "Chile", "China",
-			"Christmas Island", "Cocos (Keeling) Islands", "Colombia",
-			"Comoros", "Congo", "Cook Islands", "Costa Rica", "Croatia",
-			"Cuba", "Cyprus", "Czech Republic",
-			"Democratic Republic of the Congo", "Denmark", "Djibouti",
-			"Dominica", "Dominican Republic", "East Timor", "Ecuador", "Egypt",
-			"El Salvador", "Equatorial Guinea", "Eritrea", "Estonia",
-			"Ethiopia", "Faeroe Islands", "Falkland Islands", "Fiji",
-			"Finland", "Former Yugoslav Republic of Macedonia", "France",
-			"French Guiana", "French Polynesia", "French Southern Territories",
-			"Gabon", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece",
-			"Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala",
-			"Guinea", "Guinea-Bissau", "Guyana", "Haiti",
-			"Heard Island and McDonald Islands", "Honduras", "Hong Kong",
-			"Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq",
-			"Ireland", "Israel", "Italy", "Jamaica", "Japan", "Jordan",
-			"Kazakhstan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan", "Laos",
-			"Latvia", "Lebanon", "Lesotho", "Liberia", "Libya",
-			"Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Madagascar",
-			"Malawi", "Malaysia", "Maldives", "Mali", "Malta",
-			"Marshall Islands", "Martinique", "Mauritania", "Mauritius",
-			"Mayotte", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia",
-			"Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia",
-			"Nauru", "Nepal", "Netherlands", "Netherlands Antilles",
-			"New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria",
-			"Niue", "Norfolk Island", "North Korea", "Northern Marianas",
-			"Norway", "Oman", "Pakistan", "Palau", "Panama",
-			"Papua New Guinea", "Paraguay", "Peru", "Philippines",
-			"Pitcairn Islands", "Poland", "Portugal", "Puerto Rico", "Qatar",
-			"Reunion", "Romania", "Russia", "Rwanda", "Sqo Tome and Principe",
-			"Saint Helena", "Saint Kitts and Nevis", "Saint Lucia",
-			"Saint Pierre and Miquelon", "Saint Vincent and the Grenadines",
-			"Samoa", "San Marino", "Saudi Arabia", "Senegal", "Seychelles",
-			"Sierra Leone", "Singapore", "Slovakia", "Slovenia",
-			"Solomon Islands", "Somalia", "South Africa",
-			"South Georgia and the South Sandwich Islands", "South Korea",
-			"Spain", "Sri Lanka", "Sudan", "Suriname",
-			"Svalbard and Jan Mayen", "Swaziland", "Sweden", "Switzerland",
-			"Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand",
-			"The Bahamas", "The Gambia", "Togo", "Tokelau", "Tonga",
-			"Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan",
-			"Turks and Caicos Islands", "Tuvalu", "Virgin Islands", "Uganda",
-			"Ukraine", "United Arab Emirates", "United Kingdom",
-			"United States", "United States Minor Outlying Islands", "Uruguay",
-			"Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam",
-			"Wallis and Futuna", "Western Sahara", "Yemen", "Yugoslavia",
-			"Zambia", "Zimbabwe" };
-
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		ListView view = (ListView) findViewById(R.id.list);
+
+		ListView listView = (ListView) findViewById(R.id.list);
 		ArrayAdapter adapter = new MyAdapter(this, R.layout.row, 0, COUNTRIES);
-		view.setAdapter(adapter);
-	}
+		listView.setAdapter(adapter);
+
+		listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+				TextView textView = (TextView)view.findViewById(R.id.name);
+				//Toast.makeText(HelloListView.this, textView.getText().toString() + " : " + R.id.name, Toast.LENGTH_SHORT).show();
+				//토스트를 이미지뷰로 변경
+				View toastView = View.inflate(HelloListView.this, R.layout.row_image, null);
+
+				ImageView toastImageView = (ImageView)toastView.findViewById(R.id.rowImage);
+				toastImageView.setImageResource(Constants.imageData[position%Constants.imageData.length]);
+				TextView toastTextView = (TextView)toastView.findViewById(R.id.rowText);
+				toastTextView.setText(textView.getText().toString());
+
+				Toast toast = Toast.makeText(HelloListView.this, textView.getText().toString() + " : " + R.id.name, Toast.LENGTH_SHORT);
+				toast.setGravity(Gravity.CENTER_VERTICAL, -100, -200);
+				toast.setView(toastView);
+				toast.show();
+			}
+		});
+
+	}//END OF CLASS
 
 	class MyAdapter extends ArrayAdapter {
 		Context context;
 		int resource;
-		public MyAdapter(Context context, int resource, int textViewResourceId,
-				Object[] objects) {
+		Object[] datas;
+		public MyAdapter(Context context, int resource, int textViewResourceId, Object[] objects) {
 			super(context, resource, textViewResourceId, objects);
 			this.context = context;
 			this.resource = resource;
+			this.datas = objects;
 		}
+
+		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
-			LayoutInflater inf = (LayoutInflater) context
-					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			//layout xml 을 로딩, 파싱, 리플렉션으로 객체화 시켜줌
+			LayoutInflater inf = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			//LayoutInflater inf2 = LayoutInflater.from(context);
+			//View view0 = View.inflate(context, resource, null);
+
 			View view = inf.inflate(resource, null);
 			TextView tv = (TextView) view.findViewById(R.id.name);
-			tv.setText(COUNTRIES[position]);
+			//tv.setText(COUNTRIES[position]);
+			tv.setText((CharSequence) this.datas[position]);
+			ImageView imageView = (ImageView)view.findViewById(R.id.image);
+			imageView.setImageResource(Constants.imageData[position%Constants.imageData.length]);
 			return view;
 		}
-	}
-}
+	}//END OF FUNCTION
+}//END OF CLASS
