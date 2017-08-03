@@ -6,10 +6,18 @@
     <uses-sdk android:minSdkVersion="15"/>
 
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name="edu.jaen.android.ui.effList.EfficientListActivity">
+        <activity android:name="edu.jaen.android.ui.effList.EfficientListActivity"
+            android:exported="true"
+            android:enabled="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="lgcns.hello" />
+                <category android:name="lgcns.category" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>

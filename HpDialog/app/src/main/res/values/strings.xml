@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HpDialog</string>
+    <string name="debugTag">####DEBUG####</string>
+</resources>

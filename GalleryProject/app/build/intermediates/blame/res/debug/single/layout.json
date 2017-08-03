@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Android\\workspace\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Android\\workspace\\GalleryProject\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\src\\main\\res\\layout\\main.xml"
     }

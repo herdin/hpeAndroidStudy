@@ -2,7 +2,10 @@ package edu.jaen.android.ui.gallery;
 
 import edu.jaen.android.ui.gallery.R;
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,7 +27,32 @@ public class HelloGallery extends Activity {
 
         g.setOnItemClickListener(new OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
-                Toast.makeText(HelloGallery.this, "" + position, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(HelloGallery.this, "" + position, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent();
+                switch(position) {
+                    case 0 :
+                        ComponentName componentName = new ComponentName("edu.jaen.android.ui.effList", "edu.jaen.android.ui.effList.EfficientListActivity");
+                        intent.setComponent(componentName);
+                        break;
+                    case 1 :
+                        intent.setAction(Intent.ACTION_CALL);
+                        intent.setData(Uri.parse("tel://01044445555"));
+                        break;
+                    case 2 :
+                        intent.setAction(Intent.ACTION_VIEW);
+                        intent.setData(Uri.parse("http://www.naver.com"));
+                        break;
+                    case 3 :
+                        intent.setAction(Intent.ACTION_MAIN);
+                        intent.addCategory(Intent.CATEGORY_DEFAULT);
+                        intent.addCategory(Intent.CATEGORY_HOME);
+                        break;
+                    case 4 :
+                        intent.setAction("lgcns.hello");
+                        intent.addCategory("lgcns.category");
+                        break;
+                }
+                HelloGallery.this.startActivity(intent);
             }
         });
     }

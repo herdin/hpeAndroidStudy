@@ -8,12 +8,32 @@
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_5.png"
     },
     {
+        "merged": "C:\\Android\\workspace\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_5.png",
+        "source": "C:\\Android\\workspace\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_5.png"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_1.png",
+        "source": "C:\\Android\\workspace\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_1.png"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_2.png",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_2.png"
     },
     {
+        "merged": "C:\\Android\\workspace\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Android\\workspace\\GalleryProject\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_3.png",
+        "source": "C:\\Android\\workspace\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_3.png"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_3.png",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_3.png"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_6.png",
+        "source": "C:\\Android\\workspace\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_6.png"
     },
     {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_6.png",
@@ -24,11 +44,23 @@
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_4.png"
     },
     {
+        "merged": "C:\\Android\\workspace\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_7.png",
+        "source": "C:\\Android\\workspace\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_7.png"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_7.png",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_7.png"
     },
     {
+        "merged": "C:\\Android\\workspace\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_4.png",
+        "source": "C:\\Android\\workspace\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_4.png"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_1.png",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_1.png"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\GalleryProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_2.png",
+        "source": "C:\\Android\\workspace\\GalleryProject\\app\\src\\main\\res\\drawable\\sample_2.png"
     }
 ]

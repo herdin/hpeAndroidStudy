@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Aug 03 13:51:18 KST 2017
+#Thu Aug 03 14:45:11 KST 2017
 2.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 5.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\ic_launcher.png
 5.set=ANDROID_RESOURCE
