@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_icon_text.xml",
+        "source": "C:\\Android\\workspace\\EfficientAdapter\\app\\src\\main\\res\\layout\\list_item_icon_text.xml"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\EfficientAdapter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_icon_text.xml",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\EfficientAdapter\\app\\src\\main\\res\\layout\\list_item_icon_text.xml"
     }

@@ -37,12 +37,15 @@ public class HelloListView extends Activity {
 		listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 				TextView textView = (TextView)view.findViewById(R.id.name);
+				ImageView imageView = (ImageView)view.findViewById(R.id.image);
+
 				//Toast.makeText(HelloListView.this, textView.getText().toString() + " : " + R.id.name, Toast.LENGTH_SHORT).show();
 				//토스트를 이미지뷰로 변경
 				View toastView = View.inflate(HelloListView.this, R.layout.row_image, null);
 
 				ImageView toastImageView = (ImageView)toastView.findViewById(R.id.rowImage);
 				toastImageView.setImageResource(Constants.imageData[position%Constants.imageData.length]);
+
 				TextView toastTextView = (TextView)toastView.findViewById(R.id.rowText);
 				toastTextView.setText(textView.getText().toString());
 

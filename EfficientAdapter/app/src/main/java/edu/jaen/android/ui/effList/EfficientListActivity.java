@@ -7,6 +7,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,8 +45,11 @@ public class EfficientListActivity extends ListActivity {
             return position;
         }
         public View getView(int position, View convertView, ViewGroup parent) {
+            //Array adapter 의 튜닝예제
             ViewHolder holder;
-
+            Log.d("getView", "posisiton : " + position + " : convertView : " + (convertView==null));
+            //초기에 화면을 채울때까지는 convertView 가 null 로 들어온다.
+            //inflate 로 View 를 새로 생성한다.
             if (convertView == null) {
                 convertView = mInflater.inflate(R.layout.list_item_icon_text, null);
 
@@ -53,8 +57,10 @@ public class EfficientListActivity extends ListActivity {
                 holder.text = (TextView) convertView.findViewById(R.id.text);
                 holder.icon = (ImageView) convertView.findViewById(R.id.icon);
 
-                convertView.setTag(holder);
-            } else {
+                convertView.setTag(holder); //이럴떄 쓰라고 둔 tag
+            }
+            //화면이 넘어가서 없어질 View 가 convertView 로 넘어오면 해당 View 를 재사용한다
+            else {
                 holder = (ViewHolder) convertView.getTag();
             }
             // Bind the data efficiently with the holder.

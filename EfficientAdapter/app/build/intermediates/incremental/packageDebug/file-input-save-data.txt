@@ -1,0 +1,30 @@
+#Internal package file, do not edit.
+#Thu Aug 03 13:51:18 KST 2017
+2.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+5.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\ic_launcher.png
+5.set=ANDROID_RESOURCE
+3.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\list_item_icon_text.xml
+2.set=DEX
+4.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\assets\\debug
+7.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+7.set=ANDROID_RESOURCE
+count=9
+0.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\assets\\debug\\read_asset.txt
+5.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+4.set=ASSET
+6.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\icon48x48_2.png
+1.set=ANDROID_RESOURCE
+7.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+6.set=ANDROID_RESOURCE
+0.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\assets\\debug
+8.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\icon48x48_1.png
+3.set=ANDROID_RESOURCE
+1.base=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Android\\workspace\\EfficientAdapter\\app\\build\\intermediates\\assets\\debug\\fonts\\samplefont.ttf
+8.set=ANDROID_RESOURCE
+0.set=ASSET
