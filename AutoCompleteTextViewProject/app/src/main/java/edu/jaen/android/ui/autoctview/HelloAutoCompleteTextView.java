@@ -4,8 +4,12 @@ package edu.jaen.android.ui.autoctview;
 import edu.jaen.android.ui.autoctview.R;
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.ListView;
+
+import java.util.List;
 
 public class HelloAutoCompleteTextView extends Activity {
     /** Called when the activity is first created. */
@@ -62,5 +66,10 @@ public class HelloAutoCompleteTextView extends Activity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_dropdown_item_1line, COUNTRIES);
         textView.setAdapter(adapter);
-    }
-}
+
+		ListView listView = (ListView)findViewById(R.id.listView);
+		ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, COUNTRIES);
+		listView.setAdapter(adapter2);
+
+    }//END OF FUNCTION
+}//END OF CLASS
