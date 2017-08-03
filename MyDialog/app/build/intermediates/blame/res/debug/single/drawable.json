@@ -1,11 +1,23 @@
 [
     {
+        "merged": "C:\\Android\\workspace\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Android\\workspace\\MyDialog\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_popup_reminder.png",
+        "source": "C:\\Android\\workspace\\MyDialog\\app\\src\\main\\res\\drawable\\ic_popup_reminder.png"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alert_dialog_icon.png",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\src\\main\\res\\drawable\\alert_dialog_icon.png"
     },
     {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\workspace\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alert_dialog_icon.png",
+        "source": "C:\\Android\\workspace\\MyDialog\\app\\src\\main\\res\\drawable\\alert_dialog_icon.png"
     },
     {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\MyDialog\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_popup_reminder.png",
