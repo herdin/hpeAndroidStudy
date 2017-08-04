@@ -1,5 +1,6 @@
 package mycontac.hp.edu.mycontact;
 
+import android.content.ContentValues;
 import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText nameInput;
     private EditText telInput;
     private ListView listView;
-    private DbManager dbManager;
+    //private DbManager dbManager;
     private int preSelectedItemPosition = -1;
     private int preSelectedItemId = -1;
     private View preSelectedView = null;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Constants.printDebug(this, "MainActivity.onCreate()");
 
         setContentView(R.layout.activity_main);
-        this.dbManager = new DbManager(this);
+        //this.dbManager = new DbManager(this);
 
         this.nameInput = (EditText)findViewById(R.id.nameInput);
         this.telInput = (EditText)findViewById(R.id.telInput);
@@ -73,7 +74,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String nameInput = MainActivity.this.nameInput.getText().toString();
                 String telInput = MainActivity.this.telInput.getText().toString();
-                MainActivity.this.dbManager.insert(nameInput, telInput);
+                //MainActivity.this.dbManager.insert(nameInput, telInput);
+                ContentValues contentValues = new ContentValues();
+                contentValues.put(Constants.name, nameInput);
+                contentValues.put(Constants.tel, telInput);
+                getContentResolver().insert(Constants.cns_uri, contentValues);
+
                 MainActivity.this.refreshListView();
             }
         });
@@ -88,7 +94,12 @@ public class MainActivity extends AppCompatActivity {
                 }
                 String nameInput = MainActivity.this.nameInput.getText().toString();
                 String telInput = MainActivity.this.telInput.getText().toString();
-                MainActivity.this.dbManager.update(idInput, nameInput, telInput);
+                //MainActivity.this.dbManager.update(idInput, nameInput, telInput);
+                ContentValues contentValues = new ContentValues();
+                contentValues.put(Constants._id, idInput);
+                contentValues.put(Constants.name, nameInput);
+                contentValues.put(Constants.tel, telInput);
+                getContentResolver().update(Constants.cns_uri, contentValues, Constants._id + "=?", new String[]{MainActivity.this.preSelectedItemId+""});
                 MainActivity.this.refreshListView();
                 MainActivity.this.preSelectedItemId = -1;
                 MainActivity.this.preSelectedItemPosition = -1;
@@ -104,7 +115,8 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "SELECT ONE ITEM.", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                MainActivity.this.dbManager.delete(idInput);
+                //MainActivity.this.dbManager.delete(idInput);
+                getContentResolver().delete(Constants.cns_uri, Constants._id + "=?", new String[]{MainActivity.this.preSelectedItemId+""});
                 MainActivity.this.refreshListView();
                 MainActivity.this.preSelectedItemId = -1;
                 MainActivity.this.preSelectedItemPosition = -1;
@@ -114,7 +126,8 @@ public class MainActivity extends AppCompatActivity {
     }//END OF FUNCTION
 
     public void refreshListView() {
-        Cursor cursor = this.dbManager.query();
+        //Cursor cursor = this.dbManager.query();
+        Cursor cursor = managedQuery(Constants.cns_uri, null, null, null, null);
         SimpleCursorAdapter sca = new SimpleCursorAdapter(this, R.layout.row, cursor, new String[]{"_id", "name", "tel"}, new int[]{R.id.idData, R.id.nameData, R.id.telData}, 0);
         this.listView.setAdapter(sca);
     }//END OF FUNCTION
