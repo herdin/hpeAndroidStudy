@@ -57,7 +57,7 @@ public class FirstActivity extends AppCompatActivity {
         Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::onDestroy()");
     }//END OF FUNCTION
 
-    public void goNext(View view) {
+    public void goNext(View view) { //XML 에서 정의한 다음화면 버튼
         Toast.makeText(this, "this is Toast", Toast.LENGTH_SHORT).show(); //토스터 한번 띄워주고
         Intent intent = new Intent(this, NextActivity.class); //activity manager 에게 activity 정보를 알려주고
         //intent 에 담을 수 있는 정보는 1024 가 한계다.
@@ -65,7 +65,7 @@ public class FirstActivity extends AppCompatActivity {
         startActivity(intent); //intent 를 전달하라고 요청한다. activity 가 떠있지않으면 띄우고 전달, 안떠있으면 띄운다.
     }//END OF FUNCTION
 
-    public void startService(View v) {
+    public void startService(View v) { //XML 에서 정의한 서비스 시작 버튼
         //Toast.makeText(this, "startService", Toast.LENGTH_SHORT).show();
         Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::startService()");
         Intent intent = new Intent();
@@ -73,14 +73,14 @@ public class FirstActivity extends AppCompatActivity {
         startService(intent);
     }//END OF FUNCTION
 
-    public void stopService(View v) {
+    public void stopService(View v) { //XML 에서 정의한 서비스 종료 버튼
         Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::stopService()");
         Intent intent = new Intent();
         intent.setClass(this, MyService.class);
         stopService(intent);
     }//END OF FUNCTION
 
-    public void startBroadcast(View v) {
+    public void startBroadcast(View v) { //XML 에서 정의한 브로드캐스트 시작 버튼
         Log.d(getString(R.string.debugId), this.getClass().getSimpleName() + "::startBroadcast()");
         Intent intent = new Intent();
         //방법1 : 내 프로젝트안의 클래스를 호출할때

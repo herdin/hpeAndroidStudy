@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Android\\workspace\\ListViewProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Android\\workspace\\ListViewProject\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and4_Adapter&Dlg\\ListViewProject\\app\\src\\main\\res\\drawable\\ic_launcher.png"
     }

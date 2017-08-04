@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyContact</string>
+    <string name="debug_tag">####DEBUG####</string>
+</resources>

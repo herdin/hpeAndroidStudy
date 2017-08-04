@@ -55,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
         ComponentName componentName = new ComponentName("hp.edu.binderservice", "hp.edu.binderservice.MyService");
         Intent intent = new Intent();
         intent.setComponent(componentName);
+        /* startService 로 호출 했을 경우와, bindService 로 호출 했을 경우
+        * service 의 라이프사이클이 달라진다.
+        *
+        * */
         bindService(intent, conn, Context.BIND_AUTO_CREATE);
 
         findViewById(R.id.playButton).setOnClickListener(new View.OnClickListener() {

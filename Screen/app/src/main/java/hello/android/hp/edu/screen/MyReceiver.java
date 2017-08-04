@@ -17,7 +17,7 @@ public class MyReceiver extends BroadcastReceiver {
         //아래는 메세지처리
         Bundle bundle = intent.getExtras();
         if(bundle != null) {
-            Object[] msgs = (Object[]) bundle.get(context.getString(R.string.smsKey));
+            Object[] msgs = (Object[]) bundle.get(context.getString(R.string.smsKey)); //문자메세지가 왔을경우, 메세지를 봅아서 토스트로 보여준다.
             SmsMessage[] smsMessages = new SmsMessage[msgs.length];
             int n=0;
             for(Object msg : msgs)
