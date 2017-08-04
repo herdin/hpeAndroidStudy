@@ -18,8 +18,10 @@ public class MainActivity extends AppCompatActivity {
     private EditText telInput;
     private ListView listView;
     private DbManager dbManager;
-    private int currentSelectedItemPosition = -1;
-    private int currentSelectedItemId = -1;
+    private int preSelectedItemPosition = -1;
+    private int preSelectedItemId = -1;
+    private View preSelectedView = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,16 +38,33 @@ public class MainActivity extends AppCompatActivity {
 
         this.listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+            public void onItemClick(AdapterView<?> adapterView, View currentSelectedView, int position, long id) {
                 Constants.printDebug(MainActivity.this, "AdapterView.OnItemClickListener.onItemClick() : POSITION : " + position);
-                MainActivity.this.currentSelectedItemPosition = position;
-                MainActivity.this.currentSelectedItemId = Integer.parseInt(((TextView)view.findViewById(R.id.idData)).getText().toString());
-                Constants.printDebug(MainActivity.this, "AdapterView.OnItemClickListener.onItemClick() : SELECTED ITEM POSITION/ID : "
-                        + MainActivity.this.currentSelectedItemPosition + "/" + MainActivity.this.currentSelectedItemId);
-                view.setBackgroundResource(android.R.color.holo_orange_light);
 
-                MainActivity.this.nameInput.setText(((TextView)view.findViewById(R.id.nameData)).getText().toString());
-                MainActivity.this.telInput.setText(((TextView)view.findViewById(R.id.telData)).getText().toString());
+                if(MainActivity.this.preSelectedView != null && !MainActivity.this.preSelectedView.equals(currentSelectedView)) {
+                    Constants.printDebug(MainActivity.this, "AdapterView.OnItemClickListener.onItemClick() : DIFF");
+                    MainActivity.this.preSelectedView.setBackgroundResource(android.R.color.white);
+                }
+                MainActivity.this.preSelectedItemPosition = position;
+                MainActivity.this.preSelectedItemId = Integer.parseInt(((TextView)currentSelectedView.findViewById(R.id.idData)).getText().toString());
+                MainActivity.this.preSelectedView = currentSelectedView;
+                Constants.printDebug(MainActivity.this, "AdapterView.OnItemClickListener.onItemClick() : SELECTED ITEM POSITION/ID : "
+                        + MainActivity.this.preSelectedItemPosition + "/" + MainActivity.this.preSelectedItemId);
+                currentSelectedView.setBackgroundResource(android.R.color.holo_orange_light);
+                MainActivity.this.nameInput.setText(((TextView)currentSelectedView.findViewById(R.id.nameData)).getText().toString());
+                MainActivity.this.telInput.setText(((TextView)currentSelectedView.findViewById(R.id.telData)).getText().toString());
+            }
+        });
+
+        this.listView.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                Constants.printDebug(MainActivity.this, "AdapterView.OnItemSelectedListener.onItemSelected() : POSITION : " + position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                Constants.printDebug(MainActivity.this, "AdapterView.OnItemSelectedListener.onNothingSelected()");
             }
         });
 
@@ -62,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.updateButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int idInput = MainActivity.this.currentSelectedItemId;
+                int idInput = MainActivity.this.preSelectedItemId;
                 if(idInput < 0) {
                     Toast.makeText(MainActivity.this, "SELECT ONE ITEM.", Toast.LENGTH_SHORT).show();
                     return;
@@ -71,21 +90,25 @@ public class MainActivity extends AppCompatActivity {
                 String telInput = MainActivity.this.telInput.getText().toString();
                 MainActivity.this.dbManager.update(idInput, nameInput, telInput);
                 MainActivity.this.refreshListView();
-                MainActivity.this.currentSelectedItemId = -1;
+                MainActivity.this.preSelectedItemId = -1;
+                MainActivity.this.preSelectedItemPosition = -1;
+                MainActivity.this.preSelectedView = null;
             }
         });
 
         findViewById(R.id.deleteButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int idInput = MainActivity.this.currentSelectedItemId;
+                int idInput = MainActivity.this.preSelectedItemId;
                 if(idInput < 0) {
                     Toast.makeText(MainActivity.this, "SELECT ONE ITEM.", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 MainActivity.this.dbManager.delete(idInput);
                 MainActivity.this.refreshListView();
-                MainActivity.this.currentSelectedItemId = -1;
+                MainActivity.this.preSelectedItemId = -1;
+                MainActivity.this.preSelectedItemPosition = -1;
+                MainActivity.this.preSelectedView = null;
             }
         });
     }//END OF FUNCTION
