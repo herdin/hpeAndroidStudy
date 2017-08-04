@@ -1,9 +1,11 @@
 package com.jaen.provider.calllog;
 
+import android.annotation.TargetApi;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.CallLog;
 import android.util.Log;
@@ -16,6 +18,7 @@ import android.widget.TextView;
 public class CallLogActivity extends ListActivity {
 	private Cursor c;
 
+	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -40,13 +43,13 @@ public class CallLogActivity extends ListActivity {
 						int value = cursor.getInt(cursor.getColumnIndex(CallLog.Calls.TYPE));
 						switch (value) {
 							case CallLog.Calls.INCOMING_TYPE:
-								tv.setText("¼ö½Å");
+								tv.setText("ìˆ˜ì‹ ");
 								break;
 							case CallLog.Calls.MISSED_TYPE:
-								tv.setText("ºÎÀçÁß ÅëÈ­");
+								tv.setText("ë¶€ìž¬ì¤‘ í†µí™”");
 								break;
 							case CallLog.Calls.OUTGOING_TYPE:
-								tv.setText("¹ß½Å");
+								tv.setText("ë°œì‹ ");
 								break;
 						}
 						return true;

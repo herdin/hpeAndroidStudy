@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Android\\workspace\\ProviderCallLog\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Android\\workspace\\ProviderCallLog\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
         "merged": "C:\\Dev\\AndroidBasic_Studio\\lab\\and8_DataStorage\\ProviderCallLog\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
         "source": "C:\\Dev\\AndroidBasic_Studio\\lab\\and8_DataStorage\\ProviderCallLog\\app\\src\\main\\res\\layout\\main.xml"
     }
