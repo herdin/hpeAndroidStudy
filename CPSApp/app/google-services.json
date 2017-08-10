@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "778850041546",
+    "project_id": "firebase-cpsapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778850041546:android:a177ecafd6ee341b",
+        "android_client_info": {
+          "package_name": "com.harm.quickstart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778850041546-rps46abgfkhb0v1kln7c0k01c7899aqt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harm.quickstart",
+            "certificate_hash": "2ccfd543c3d4ce7bdde0bf8dbf9108b5fff4aec2"
+          }
+        },
+        {
+          "client_id": "778850041546-72h8drr12t4ga9ul81ij5mt7dgccjtet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIy7iyyZeOUNKp16xWDCqWoh_MiQ1P0sw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

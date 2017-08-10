@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CPSApp</string>
+    <string name="desc_google_icon">image</string>
+    <string name="signed_out">SIGNED OUT</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="signed_in_fmt">SIGNED IN</string>
+</resources>
