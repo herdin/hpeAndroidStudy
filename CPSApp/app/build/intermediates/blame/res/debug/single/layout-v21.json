@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\herdi\\.android\\build-cache\\baeb2d4ab9756aedbdffebd2141d524429a54a90\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\herdi\\.android\\build-cache\\baeb2d4ab9756aedbdffebd2141d524429a54a90\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\herdi\\.android\\build-cache\\baeb2d4ab9756aedbdffebd2141d524429a54a90\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\herdi\\.android\\build-cache\\baeb2d4ab9756aedbdffebd2141d524429a54a90\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]

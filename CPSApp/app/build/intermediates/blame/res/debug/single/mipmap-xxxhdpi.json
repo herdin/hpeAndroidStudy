@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "D:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "D:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    }
+]

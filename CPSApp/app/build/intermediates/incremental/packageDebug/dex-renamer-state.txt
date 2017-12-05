@@ -1,0 +1,7 @@
+#Fri Aug 11 00:32:06 KST 2017
+base.0=D\:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e15ce6277ee93f7e378c77c770f2a9c5ea9bbbeb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c6366e685b08740cadc942197a9201f586f16a9b\\classes.dex
+base.1=D\:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c6366e685b08740cadc942197a9201f586f16a9b
+file.0=D\:\\Study\\Android\\workspaceAndroid\\CPSApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e15ce6277ee93f7e378c77c770f2a9c5ea9bbbeb\\classes.dex

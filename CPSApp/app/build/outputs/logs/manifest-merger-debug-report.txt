@@ -1,0 +1,150 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:26:5-46:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\baeb2d4ab9756aedbdffebd2141d524429a54a90\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\fd7a80ac7401cc68ceccf3d3db1bf8659a46d769\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\eb23980f17e6f727ea55ac25e12b0b4442c88cd3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\herdi\.android\build-cache\b92ff7853f6422f728ec7d561a871b1ee9262f9b\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\herdi\.android\build-cache\96e729f24aea1833a4261dac0de46a3b551ec938\output\AndroidManifest.xml:20:5-25:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\herdi\.android\build-cache\9e7fc1fbe402018a2289aaae81f1f19a28b42381\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\1670124041ee2af672adaa01d2741f9875f1320e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\1e40be21200846b433f847576f072caecdd740cb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\9da727a7568cf5e55c08201fa17a484e763b5691\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\0432e059eeb487501c67344f7066094588550187\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\34feb9eae968f464610b487592bca98715a36393\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\f947d8091f1e0940025075debda183947d3fbe8d\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:11:9-40
+activity#quickstart.harm.com.cpsapp.MainActivity
+ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\baeb2d4ab9756aedbdffebd2141d524429a54a90\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\fd7a80ac7401cc68ceccf3d3db1bf8659a46d769\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\eb23980f17e6f727ea55ac25e12b0b4442c88cd3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\herdi\.android\build-cache\b92ff7853f6422f728ec7d561a871b1ee9262f9b\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\herdi\.android\build-cache\96e729f24aea1833a4261dac0de46a3b551ec938\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\herdi\.android\build-cache\5d640f87ff153aa61ff9139a375c9d88d4b8c621\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\herdi\.android\build-cache\9e7fc1fbe402018a2289aaae81f1f19a28b42381\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\1670124041ee2af672adaa01d2741f9875f1320e\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\1e40be21200846b433f847576f072caecdd740cb\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\9da727a7568cf5e55c08201fa17a484e763b5691\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\0432e059eeb487501c67344f7066094588550187\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\34feb9eae968f464610b487592bca98715a36393\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\f947d8091f1e0940025075debda183947d3fbe8d\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\baeb2d4ab9756aedbdffebd2141d524429a54a90\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Android\workspaceAndroid\CPSApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:24:22-65
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\herdi\.android\build-cache\16b0b5baf2c8a2eb86beeb247282de5f21d14abc\output\AndroidManifest.xml:42:11-82
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\baeb2d4ab9756aedbdffebd2141d524429a54a90\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\fd7a80ac7401cc68ceccf3d3db1bf8659a46d769\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\eb23980f17e6f727ea55ac25e12b0b4442c88cd3\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\1670124041ee2af672adaa01d2741f9875f1320e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\1e40be21200846b433f847576f072caecdd740cb\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\9da727a7568cf5e55c08201fa17a484e763b5691\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\0432e059eeb487501c67344f7066094588550187\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\34feb9eae968f464610b487592bca98715a36393\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\f947d8091f1e0940025075debda183947d3fbe8d\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\baeb2d4ab9756aedbdffebd2141d524429a54a90\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\herdi\.android\build-cache\baeb2d4ab9756aedbdffebd2141d524429a54a90\output\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\herdi\.android\build-cache\96e729f24aea1833a4261dac0de46a3b551ec938\output\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\herdi\.android\build-cache\96e729f24aea1833a4261dac0de46a3b551ec938\output\AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\herdi\.android\build-cache\96e729f24aea1833a4261dac0de46a3b551ec938\output\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\herdi\.android\build-cache\96e729f24aea1833a4261dac0de46a3b551ec938\output\AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\herdi\.android\build-cache\96e729f24aea1833a4261dac0de46a3b551ec938\output\AndroidManifest.xml:21:19-72
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\herdi\.android\build-cache\9e7fc1fbe402018a2289aaae81f1f19a28b42381\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\herdi\.android\build-cache\9e7fc1fbe402018a2289aaae81f1f19a28b42381\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\herdi\.android\build-cache\9e7fc1fbe402018a2289aaae81f1f19a28b42381\output\AndroidManifest.xml:22:13-58
